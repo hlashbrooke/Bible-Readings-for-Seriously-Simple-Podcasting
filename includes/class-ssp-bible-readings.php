@@ -95,6 +95,8 @@ class SSP_Bible_Readings {
 		// Add transcript download link to episode meta
 		add_filter( 'ssp_episode_meta_details', array( $this, 'display_reading' ), 10, 3 );
 
+		add_filter( 'ssp_settings_fields', array( $this, 'add_settings_field' ), 10, 1 );
+
 	} // End __construct ()
 
 	public function add_field ( $fields = array() ) {
@@ -138,7 +140,30 @@ class SSP_Bible_Readings {
 	}
 
 	public function get_bible_version () {
-		return 'NIV';
+
+		$version = get_option( 'ss_podcasting_bible_version', 'NIV' );
+
+		return $version;
+	}
+
+	public function add_settings_field ( $settings = array() ) {
+
+		$version_options = array(
+			'NIV' => __( 'New Interntional Version (NIV)', 'seriously-simple-bible-readings' ),
+			'ESV' => __( 'English Standard Version (ESV)', 'seriously-simple-bible-readings' ),
+		);
+
+		$settings['general']['fields'][] = array(
+			'id'          => 'bible_version',
+			'label'       => __( 'Bible version', 'seriously-simple-bible-readings' ),
+			'description' => __( 'The version of the Bible to use for your episode Bible readings.', 'seriously-simple-bible-readings' ),
+			'type'        => 'select',
+			'options'     => $version_options,
+			'default'     => 'NIV',
+			'callback'    => 'wp_strip_all_tags',
+		);
+
+		return $settings;
 	}
 
 	/**

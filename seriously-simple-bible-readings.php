@@ -9,7 +9,7 @@
  * Requires at least: 4.4
  * Tested up to: 5.3
  *
- * Text Domain: seriously-simple-transcripts
+ * Text Domain: seriously-simple-bible-readings
  *
  * @package WordPress
  * @author Hugh Lashbrooke
@@ -30,10 +30,10 @@ if( is_ssp_active( '1.15.0' ) ) {
 	require_once( 'includes/class-ssp-bible-readings.php' );
 
 	/**
-	 * Returns the main instance of SSP_Transcripts to prevent the need to use globals.
+	 * Returns the main instance of SSP_Bible_Readings to prevent the need to use globals.
 	 *
 	 * @since  1.0.0
-	 * @return object SSP_Transcripts
+	 * @return object SSP_Bible_Readings
 	 */
 	function SSP_Bible_Readings () {
 		$instance = SSP_Bible_Readings::instance( __FILE__, '1.0.0' );
