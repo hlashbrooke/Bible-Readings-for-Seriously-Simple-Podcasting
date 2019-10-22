@@ -13,14 +13,14 @@ Add linked Bible readings to sermons published with Seriously Simple Podcasting.
 
 > This plugin is an add-on for [Seriously Simple Podcasting](https://wordpress.org/plugins/seriously-simple-podcasting/) and requires at least **v1.15** of Seriously Simple Podcasting in order to work.
 
-Seriously Simple Podcasting is a great plugin for publishing your church's weekly sermons. One
-
-Simply upload your transcript file (in any format) just like you would upload your podcast audio/video file and the link to download the transcript will appear underneath the episode media player with the rest of your episode details.
+Seriously Simple Podcasting is a great plugin for publishing your church's weekly sermons. One 
 
 **Primary Features**
 
 - Adds a new field to your episodes for adding the Bible reading for the sermon
 - Adds the Bible reading alongside the rest of the episode details on your episodes, linked to the passage on biblegateway.com
+- Allows you to select your preferred version from 60 different English Bible versions
+- Includes dynamic filtering (see FAQ) to use any other version that is available on biblegateway.com
 
 **How to contribute**
 
@@ -44,6 +44,14 @@ Installing "Seriously Simple Bible Readings" can be done either by searching for
 = What version of Seriously Simple Podcasting does this plugin require? =
 
 In order to use this plugin you need to have at least v1.15 of [Seriously Simple Podcasting](https://wordpress.org/plugins/seriously-simple-podcasting/). If you do not have Seriously Simple Podcasting active or you are using a version older than v1.15 then this plugin will do nothing.
+
+= What site is linked to for the actual Bible passage? =
+
+The Bible readings link to biblegateway.com and are displayed on that site using the version selected in ther settings. You can use the `ssp_bible_readings_url` filter to modify the URL for the link if you would like it to point it to a different site.
+
+= How do I change the Bible version in use? =
+
+You will find a new setting at the bottom of the Podcast > Settings page where you can select which Bible version is used - it defaults to the New International Version (NIV). You can filter this to use any version that biblegateway.com offers using the `ssp_bible_readings_version` filter. This filter includes the episode ID as an additional paramter, so you can use it to specify a different version for specific episodes.
 
 == Changelog ==
 

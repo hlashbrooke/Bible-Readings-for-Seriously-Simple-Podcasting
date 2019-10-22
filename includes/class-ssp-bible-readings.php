@@ -119,12 +119,12 @@ class SSP_Bible_Readings {
 		}
 
 		// Fetch the Bible reading for the episode
-		$bible_reading = get_post_meta( $episode_id , 'reading' , true );
+		$bible_reading = apply_filters( 'ssp_bible_readings_reading', get_post_meta( $episode_id, 'reading', true ), $episode_id );
 
 	    if( $bible_reading ) {
 
 	    	// Get the Bible version to be used
-	    	$version = $this->get_bible_version();
+	    	$version = $this->get_bible_version( $episode_id );
 
 	    	// Format the Bible reading for the URL parameter
 	        $param = strtolower( str_replace( ' ', '+', $bible_reading ) );
@@ -132,18 +132,21 @@ class SSP_Bible_Readings {
 	        // Construct the Bible Gateway URL
 	        $url = 'http://www.biblegateway.com/bible?language=en&version=' . $version . '&passage=' . $param;
 
+	        // Allow dynamic filtering of the URL so other sites can be used
+	        $url = apply_filters( 'ssp_bible_readings_url', $url, $episode_id, $bible_reading, $version );
+
 	        // Add the Bible reading to the episode meta data
-	        $meta['reading'] = '<a href="' . $url . '" target="_blank">' . $bible_reading . '</a>';
+	        $meta['bible_reading'] = '<a href="' . $url . '" target="_blank">' . $bible_reading . '</a>';
 	    }
 
 		return $meta;
 	}
 
-	public function get_bible_version () {
+	public function get_bible_version ( $episode_id = 0 ) {
 
 		$version = get_option( 'ss_podcasting_bible_version', 'NIV' );
 
-		return $version;
+		return apply_filters( 'ssp_bible_readings_version', $version, $episode_id );
 	}
 
 	public function add_settings_field ( $settings = array() ) {
