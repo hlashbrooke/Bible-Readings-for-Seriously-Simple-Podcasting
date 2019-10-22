@@ -123,14 +123,14 @@ class SSP_Bible_Readings {
 
 	    if( $bible_reading ) {
 
+	    	// Format the Bible reading for the biblegateway.com URL parameter
+	        $param = strtolower( str_replace( ' ', '+', $bible_reading ) );
+
 	    	// Get the Bible version to be used
 	    	$version = $this->get_bible_version( $episode_id );
 
-	    	// Format the Bible reading for the URL parameter
-	        $param = strtolower( str_replace( ' ', '+', $bible_reading ) );
-
 	        // Construct the Bible Gateway URL
-	        $url = 'http://www.biblegateway.com/bible?language=en&version=' . $version . '&passage=' . $param;
+	        $url = 'https://www.biblegateway.com/passage/?search=' . $param . '&version='. $version;
 
 	        // Allow dynamic filtering of the URL so other sites can be used
 	        $url = apply_filters( 'ssp_bible_readings_url', $url, $episode_id, $bible_reading, $version );
