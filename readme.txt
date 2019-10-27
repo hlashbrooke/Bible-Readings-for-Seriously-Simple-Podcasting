@@ -1,4 +1,4 @@
-=== Seriously Simple Bible Readings ===
+=== Bible Readings for Seriously Simple Podcasting ===
 Contributors: hlashbrooke
 Tags: seriously simple podcasting, bible, reading, podcast, podcasting, sermons
 Requires at least: 4.4
@@ -28,7 +28,7 @@ If you want to contribute to Seriously Simple Bible Readings, you can [fork the 
 
 == Installation ==
 
-Installing "Seriously Simple Bible Readings" can be done either by searching for "Seriously Simple Bible Readings" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+Installing "Bible Readings for Seriously Simple Podcasting" can be done either by searching for "Bible Readings for Seriously Simple Podcasting" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
 1. Download the plugin via WordPress.org
 2. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
@@ -51,7 +51,7 @@ The Bible readings link to biblegateway.com and are displayed on that site using
 
 = How do I change the Bible version in use? =
 
-You will find a new setting at the bottom of the "Podcast > Settings" page where you can select which Bible version is used - it defaults to the New International Version (NIV). You can filter this to use [any version that biblegateway.com offers](https://www.biblegateway.com/versions/) using the `ssp_bible_readings_version` filter. This filter includes the episode ID as an additional paramter, so you can use it to specify a different version for specific episodes. [See some example code here](https://gist.github.com/hlashbrooke/42df1ebaec9adf4c2f09350b6f7e1e47).
+You will find a new setting at the bottom of the "Podcast > Settings" page where you can select which Bible version is used - it defaults to the New International Version (NIV). You can filter this to use [any version that biblegateway.com offers](https://www.biblegateway.com/versions/) using the `ssp_bible_readings_version` filter. This filter includes the episode ID as an additional parameter, so you can use it to specify a different version for specific episodes. [See some example code here](https://gist.github.com/hlashbrooke/42df1ebaec9adf4c2f09350b6f7e1e47).
 
 = Can I include multiple readings in one episode? =
 
@@ -67,7 +67,7 @@ You can string any amount of passages together like that and they will all displ
 == Changelog ==
 
 = 1.0 =
-* 2019-10-31
+* 2019-10-28
 * Initial release
 
 == Upgrade Notice ==

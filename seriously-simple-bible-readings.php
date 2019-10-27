@@ -1,15 +1,15 @@
 <?php
 /*
- * Plugin Name: Seriously Simple Bible Readings
+ * Plugin Name: Bible Readings for Seriously Simple Podcasting
  * Version: 1.0.0
- * Plugin URI: https://wordpress.org/plugins/seriously-simple-bible-readings
+ * Plugin URI: https://wordpress.org/plugins/bible-readings-seriously-simple
  * Description: Add linked Bible readings to sermons published with Seriously Simple Podcasting.
  * Author: Hugh Lashbrooke
  * Author URI: https://hugh.blog/
  * Requires at least: 4.4
  * Tested up to: 5.3
  *
- * Text Domain: seriously-simple-bible-readings
+ * Text Domain: bible-readings-for-seriously-simple
  *
  * @package WordPress
  * @author Hugh Lashbrooke
