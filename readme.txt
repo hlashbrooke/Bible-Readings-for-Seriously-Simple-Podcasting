@@ -3,7 +3,7 @@ Contributors: hlashbrooke
 Tags: seriously simple podcasting, bible, reading, podcast, podcasting, sermons
 Requires at least: 4.4
 Tested up to: 5.3
-Stable tag: 1.0.0
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,13 +61,15 @@ Yes, you can! Just separate each passage with a comma (`,`). The following forma
 * Proverbs 16:1-9, 12-14
 * Proverbs 16:1-9, Acts 17:22-31
 * Proverbs 16:1-9, Acts 17:22-31, Mark 1:1-5
+* Proverbs 16-17
+* Proverbs 16:12-17:5
 
 You can string any amount of passages together like that and they will all display on the same page when opened, in the order that you added them.
 
 == Changelog ==
 
 = 1.0 =
-* 2019-10-28
+* 2019-10-27
 * Initial release
 
 == Upgrade Notice ==
