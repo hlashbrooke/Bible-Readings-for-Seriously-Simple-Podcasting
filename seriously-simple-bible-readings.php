@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Bible Readings for Seriously Simple Podcasting
- * Version: 1.0.0
+ * Version: 1.0
  * Plugin URI: https://wordpress.org/plugins/bible-readings-seriously-simple
  * Description: Add linked Bible readings to sermons published with Seriously Simple Podcasting.
  * Author: Hugh Lashbrooke
