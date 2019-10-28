@@ -59,14 +59,19 @@ You will find a new setting at the bottom of the "Podcast > Settings" page where
 
 Yes, you can! Just separate each passage with a comma (`,`). The following formats (and their combinations/variations) will all work:
 
-* Proverbs 16:1-9
-* Proverbs 16:1-9, 12-14
-* Proverbs 16:1-9, Acts 17:22-31
-* Proverbs 16:1-9, Acts 17:22-31, Mark 1:1-5
-* Proverbs 16-17
-* Proverbs 16:12-17:5
+* [Proverbs 16](https://www.biblegateway.com/passage/?search=proverbs+16&version=NIV)
+* [Proverbs 16:1-9](https://www.biblegateway.com/passage/?search=proverbs+16:1-9&version=NIV)
+* [Proverbs 16:1-9, 12-14](https://www.biblegateway.com/passage/?search=proverbs+16:1-9,+12-14&version=NIV)
+* [Proverbs 16:1-9, Acts 17:22-31](https://www.biblegateway.com/passage/?search=proverbs+16:1-9,+acts+17:22-31&version=NIV)
+* [Proverbs 16:1-9, Acts 17:22-31, Mark 1:1-5](https://www.biblegateway.com/passage/?search=proverbs+16:1-9,+acts+17:22-31,+mark+1:1-5&version=NIV)
+* [Proverbs 16-17](https://www.biblegateway.com/passage/?search=proverbs+16-17&version=NIV)
+* [Proverbs 16:12-17:5](https://www.biblegateway.com/passage/?search=proverbs+16:12-17:5&version=NIV)
 
 You can string any amount of passages together like that and they will all display on the same page when opened, in the order that you added them.
+
+= Why does the media player in the screenshot look different to the normal WP media player? =
+
+It is the same media player that is built into WordPress itself, but I have styled it using the [Media Player Style Kit plugin](https://wordpress.org/plugins/media-player-style-kit/).
 
 == Changelog ==
 
