@@ -11,9 +11,11 @@ Add linked Bible readings to sermons published with Seriously Simple Podcasting.
 
 == Description ==
 
-> This plugin is an add-on for [Seriously Simple Podcasting](https://wordpress.org/plugins/seriously-simple-podcasting/) and requires at least **v1.15** of Seriously Simple Podcasting in order to work.
+Seriously Simple Podcasting is a great plugin for publishing your church's weekly sermons, but no sermon is really complete without a relevant Bible reading - that's what this plugin allows you to add to your sermons published with Seriously Simple Podcasting.
 
-Seriously Simple Podcasting is a great plugin for publishing your church's weekly sermons, but no sermon is really complete with a relevant Bible reading - that's what this plugin allows you to add to your sermons published with Seriously Simple Podcasting. Simply put - this plugin adds a new 'Bible reading' text field to your episodes where you can specify the reading for that sermon. For your site visitors, this will add the reading to the episode meta data that is displayed beneath the media player with the reading linked to biblegateway.com for the full text.
+Simply put - this plugin adds a new 'Bible reading' text field to your episodes where you can specify the reading for that sermon. For your site visitors, this will add the reading to the episode meta data that is displayed beneath the media player with the reading linked to biblegateway.com for the full text.
+
+> This plugin is an add-on for [Seriously Simple Podcasting](https://wordpress.org/plugins/seriously-simple-podcasting/) and requires at least **v1.15** of Seriously Simple Podcasting in order to work.
 
 **Primary Features**
 
