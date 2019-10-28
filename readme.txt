@@ -26,7 +26,7 @@ Simply put - this plugin adds a new 'Bible reading' text field to your episodes 
 
 **How to contribute**
 
-If you want to contribute to Seriously Simple Bible Readings, you can [fork the GitHub repository](https://github.com/hlashbrooke/Seriously-Simple-Bible-Readings) - all pull requests will be reviewed and merged if they fit into the goals for the plugin.
+If you want to contribute to Bible Readings for Seriously Simple Podcasting, you can [fork the GitHub repository](https://github.com/hlashbrooke/Bible-Readings-for-Seriously-Simple-Podcasting) - all pull requests will be reviewed and merged if they fit into the goals for the plugin.
 
 == Installation ==
 
